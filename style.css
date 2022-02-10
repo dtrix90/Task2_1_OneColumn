@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #24252a;
+    color: #edf0f1;
+
+}
+
+li, a, button {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+.grid-container {
+    order: 5;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.nav-bar{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+/**/
+.nav-links ul li {
+    position: relative;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+.cta button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.main h2 {
+    padding: 10px;
+    padding-bottom: 20px;
+
+}
+
+.main h4{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer h3{
+    padding-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.footer-bottom p {
+    padding-top: 30px;
+}
+
+nav .nav-links li .drop-links {
+    display: none;
+    position: absolute;
+
+}
+
+nav .nav-links li:hover ul {
+    display: block;
+    
+}
